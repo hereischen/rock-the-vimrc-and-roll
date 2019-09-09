@@ -13,7 +13,7 @@ Plug 'prettier/vim-prettier', {
   \         'scss', 'json', 'graphql', 'markdown', 'vue',
   \         'yaml', 'html'] }
 " syntax check eslint
-" Plug 'dense-analysis/ale'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 " ===============================================
@@ -31,13 +31,11 @@ map <C-n> :NERDTreeToggle<CR>
 let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \}
-"let g:ale_sign_error = '❌'
-"let g:ale_sign_warning = '⚠️'
-let g:ale_fix_on_save = 0
+let g:ale_fix_on_save = 1
 let g:ale_lint_on_enter = 1
 
 " Prettier的配置
-let g:prettier#exec_cmd_path = "$HOME/.nvm/versions/node/v10.16.1/bin/prettier"
+"let g:prettier#exec_cmd_path = '$HOME/.nvm/versions/node/v10.16.1/bin/prettier'
 let g:prettier#config#config_precedence = 'file-override'
 " max line length that prettier will wrap on
 " Prettier default: 80

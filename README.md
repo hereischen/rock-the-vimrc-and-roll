@@ -20,3 +20,7 @@ You can automate the process by putting the command in your Vim configuration
 file as suggested [here][auto].
 
 [auto]: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
+
+#### Fonts
+
+[Menlo](https://github.com/hbin/top-programming-fonts) is my choice.
