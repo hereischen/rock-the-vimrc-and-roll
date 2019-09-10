@@ -137,5 +137,5 @@ set expandtab
 set shiftwidth=2
 
 " 按\ss打开/关闭拼写检查
-map <leader>ss :setlocal spell!<cr>
+map <leader>ss :setlocal spell! spelllang=en_us<cr>
 
