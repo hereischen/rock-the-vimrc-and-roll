@@ -71,7 +71,7 @@ let g:prettier#config#arrow_parens = 'always'
 " none|es5|all
 " Prettier default: none
 let g:prettier#config#trailing_comma = 'es5'
-
+let g:prettier#config#space_before_function_paren = 'true'
 " 按\k \j 上一个/下一个eslint提示
 nmap <silent> <leader>k <Plug>(ale_previous_wrap)
 nmap <silent> <leader>j <Plug>(ale_next_wrap)
